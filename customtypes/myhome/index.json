@@ -20,6 +20,9 @@
           "choices": {
             "home_slice": {
               "type": "SharedSlice"
+            },
+            "text_block": {
+              "type": "SharedSlice"
             }
           }
         }
