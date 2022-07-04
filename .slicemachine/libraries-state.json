@@ -1,0 +1,131 @@
+{
+  "slices": {
+    "components": {
+      "home_slice": {
+        "library": "slices",
+        "id": "home_slice",
+        "name": "HomeSlice",
+        "description": "HomeSlice",
+        "model": {
+          "id": "home_slice",
+          "type": "SharedSlice",
+          "name": "HomeSlice",
+          "description": "HomeSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HomeSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "homeImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Home Image",
+                    "constraint": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "hello": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Hello",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "home_slice",
+            "items": [
+              {
+                "hello": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat adipisicing officia nulla consectetur sunt esse.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "hello": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia eiusmod qui dolor velit labore reprehenderit dolor. Aute aliqua laboris dolor cupidatat laborum eiusmod voluptate occaecat ex sunt qui exercitation id. Eu ipsum excepteur dolor ad ipsum labore dolor cupidatat incididunt deserunt.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Leverage seamless web services",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolor adipisicing est cillum mollit.",
+                  "spans": []
+                }
+              ],
+              "homeImage": {
+                "dimensions": {
+                  "width": 50,
+                  "height": 50
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1585399000684-d2f72660f092?w=50&h=50&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/akt8394/Documents/pearl-projects/ask-demo/.slicemachine/assets/slices/HomeSlice/default/preview.png",
+            "width": 800,
+            "height": 67
+          }
+        }
+      }
+    }
+  }
+}

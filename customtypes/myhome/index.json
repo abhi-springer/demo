@@ -1,0 +1,29 @@
+{
+  "id": "myhome",
+  "label": "MyHome",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "homeImage": {
+        "type": "Image",
+        "config": {
+          "label": "Home Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "home_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}
