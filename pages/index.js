@@ -21,10 +21,12 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="/components/hero-component" className={styles.card}>
+          <Link href="/components/hero-component">
+          <a className={styles.card}>
             <h2>Hero with Featured Logos &rarr;</h2>
             <p>Update the image and text from prismic.</p>
           </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
