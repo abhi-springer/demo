@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -12,19 +13,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <h1 className="title">
+          Read { ' ' }
+          <Link href="/components/hero-component">
+           <a>check this hero page with featured logos</a>
+          </Link>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/components/hero-component" className={styles.card}>
+            <h2>Hero with Featured Logos &rarr;</h2>
+            <p>Update the image and text from prismic.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>

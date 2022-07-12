@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "new_slice",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Scale global relationships",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Elit exercitation nisi in elit ut officia. Esse voluptate qui fugiat ut labore deserunt laboris.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
