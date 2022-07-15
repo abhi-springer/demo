@@ -7,9 +7,10 @@
       "default": {
         "primary": {
           "homeImage": {
-            "content": "https://images.unsplash.com/photo-1585399000684-d2f72660f092"
+            "content": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"
           }
-        }
+        },
+        "items": {}
       }
     },
     "TextBlock": {}
