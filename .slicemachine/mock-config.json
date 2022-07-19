@@ -1,6 +1,7 @@
 {
   "_cts": {
-    "myhome": {}
+    "myhome": {},
+    "test": {}
   },
   "slices": {
     "HomeSlice": {
@@ -13,6 +14,14 @@
         "items": {}
       }
     },
-    "TextBlock": {}
+    "TextBlock": {
+      "default": {
+        "primary": {
+          "backgroundImage": {
+            "content": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg"
+          }
+        }
+      }
+    }
   }
 }
