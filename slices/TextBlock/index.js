@@ -19,7 +19,6 @@ const TextBlock = ({ slice }) => (
         slice.primary.title ?
         (
 <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-<RichText render={slice.primary.title}/>
               <Text
                 as={'span'}
                 position={'relative'}
