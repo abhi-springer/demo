@@ -1,6 +1,8 @@
 import * as prismicH from "@prismicio/helpers";
 import { PrismicNextImage } from "@prismicio/next";
+import { RichText } from 'prismic-reactjs'
 import {
+  background,
     Button,
     Flex,
     Heading,
@@ -13,13 +15,15 @@ import heroStyles from '../../styles/hero.module.css'
 
 const Image = ({ slice, index }) => {
   const image = slice.primary.image;
- console.log(image)
+  const title = slice.primary.title[0]
+ console.log(title)
   return (
-      <div>{prismicH.isFilled.image(image) && (
-        <div className="bg-gray-100">
-          <PrismicNextImage field={image} layout="responsive" />
+      <div>
+        {prismicH.isFilled.image(image) && (
+        <div className= {heroStyles.heroText} style = {{backgroundImage : image.url}}>
           <p></p>
           <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+          
               <Text
                 as={'span'}
                 position={'relative'}
@@ -39,8 +43,34 @@ const Image = ({ slice, index }) => {
                   left: 0,
                   zIndex: -1,
                 }}>
-            {image.url}
+                {title.text}
               </Text>
+            </Heading>
+
+            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+
+              <Text
+                as={'span'}
+                position={'relative'}
+                style={{fontFamily: 'IvyPresto Headline',
+                fontStyle: 'normal',
+                fontWeight: '600',
+                fontSize: '60px',
+                lineHeight: '100%',
+                color: '#003D77'
+              }}
+                _after={{
+                  content: "''",
+                  width: 'full',
+                  height: useBreakpointValue({ base: '20%', md: '30%' }),
+                  position: 'absolute',
+                  bottom: 1,
+                  left: 0,
+                  zIndex: -1,
+                }}>
+                {title.text}
+              </Text>
+
             </Heading>
         </div>
       )}
