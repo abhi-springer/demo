@@ -1,0 +1,32 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Sunt tempor tempor laborum aliquip irure non labore nulla et fugiat. Nulla laboris proident ipsum adipisicing qui labore est occaecat aute voluptate nulla. Anim et deserunt anim tempor et.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "twoColumns",
+    "name": "Two Columns",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Est excepteur est duis duis minim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

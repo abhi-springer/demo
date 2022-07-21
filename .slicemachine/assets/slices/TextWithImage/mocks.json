@@ -1,0 +1,55 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text_with_image",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Cillum tempor nostrud excepteur minim ad consequat eiusmod.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 1000,
+          "height": 1200
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=1000&h=1200&fit=crop"
+      }
+    }
+  },
+  {
+    "variation": "withButton",
+    "name": "With Button",
+    "slice_type": "text_with_image",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Irure in sunt nulla ea mollit. Consequat do ad in occaecat. Occaecat anim sit tempor adipisicing commodo ex.",
+          "spans": []
+        }
+      ],
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "buttonText": "syndicate impactful models",
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+      }
+    }
+  }
+]

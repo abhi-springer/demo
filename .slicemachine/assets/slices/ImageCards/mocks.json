@@ -1,0 +1,110 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "image_cards",
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 2200,
+            "height": 1200
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=2200&h=1200&fit=crop"
+        },
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Officia qui deserunt do ad incididunt irure ea aute tempor nisi et excepteur et. Nulla reprehenderit incididunt nisi anim. Qui pariatur cillum sint ullamco nulla laborum.",
+            "spans": []
+          }
+        ],
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "buttonText": "engage cross-media e-business"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 2200,
+            "height": 1200
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=2200&h=1200&fit=crop"
+        },
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Reprehenderit aliquip velit id voluptate eiusmod occaecat deserunt. Reprehenderit tempor cupidatat ut irure aute laboris ea aute sunt exercitation.",
+            "spans": []
+          }
+        ],
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "buttonText": "seize clicks-and-mortar technologies"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 2200,
+            "height": 1200
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=2200&h=1200&fit=crop"
+        },
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Incididunt non voluptate culpa non dolor consectetur ipsum sunt commodo incididunt nostrud est. Lorem enim anim esse Lorem sit ad magna.",
+            "spans": []
+          }
+        ],
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "buttonText": "syndicate e-business bandwidth"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 2200,
+            "height": 1200
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=2200&h=1200&fit=crop"
+        },
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Et enim duis occaecat fugiat sint adipisicing veniam et eu. Elit ea ex commodo mollit quis incididunt amet ullamco aute occaecat exercitation minim qui.",
+            "spans": []
+          }
+        ],
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "buttonText": "engage bleeding-edge web-readiness"
+      }
+    ],
+    "primary": {
+      "heading": [
+        {
+          "type": "heading1",
+          "text": "Transition front-end markets",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

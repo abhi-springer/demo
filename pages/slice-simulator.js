@@ -1,15 +1,23 @@
 import { SliceSimulator } from "@prismicio/slice-simulator-react";
-import SliceZone from "next-slicezone";
+import { SliceZone } from "@prismicio/react";
 
 import state from "../.slicemachine/libraries-state.json";
+import { components } from "../slices";
 
-import * as Slices from "../slices";
-const resolver = ({ sliceName }) => Slices[sliceName];
-
-const SliceSimulatorPage = () => (<SliceSimulator
-	// The `sliceZone` prop should be a function receiving slices and rendering them using your `SliceZone` component.
-	sliceZone={(props) => <SliceZone {...props} resolver={resolver} />}
-	state={state}
-/>);
+const SliceSimulatorPage = () => (
+  <SliceSimulator
+    // The "sliceZone" prop should be a function receiving slices and rendering them using your "SliceZone" component.
+    sliceZone={(props) => <SliceZone {...props} components={components} />}
+    state={state}
+  />
+);
 
 export default SliceSimulatorPage;
+
+export const getStaticProps = async () => {
+  if (process.env.NODE_ENV === "production") {
+    return { notFound: true };
+  } else {
+    return { props: {} };
+  }
+};
