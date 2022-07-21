@@ -1,6 +1,112 @@
 {
   "slices": {
     "components": {
+      "hero_featured_image": {
+        "library": "slices",
+        "id": "hero_featured_image",
+        "name": "HeroFeaturedImage",
+        "description": "HeroFeaturedImage",
+        "model": {
+          "id": "hero_featured_image",
+          "type": "SharedSlice",
+          "name": "HeroFeaturedImage",
+          "description": "HeroFeaturedImage",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroFeaturedImage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "backgroundImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Background Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "buttonLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero_featured_image",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Visualize collaborative relationships",
+                  "spans": []
+                }
+              ],
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Nisi id nulla exercitation consequat et amet duis quis irure culpa culpa ex culpa. Adipisicing sint officia in pariatur.",
+                  "spans": []
+                }
+              ],
+              "backgroundImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+              },
+              "buttonLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/akt8394/Documents/pearl-projects/ask-demo/.slicemachine/assets/slices/HeroFeaturedImage/default/preview.png",
+            "width": 800,
+            "height": 54
+          }
+        }
+      },
       "home_slice": {
         "library": "slices",
         "id": "home_slice",

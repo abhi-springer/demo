@@ -20,7 +20,7 @@ const Image = ({ slice, index }) => {
   return (
       <div>
         {prismicH.isFilled.image(image) && (
-        <div className= {heroStyles.heroText} style = {{backgroundImage : image.url}}>
+        <div className= {heroStyles.heroText} style = {{backgroundImage : "url(" + image.url + ")",height:'482px'}}>
           <p></p>
           <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
           
@@ -45,32 +45,6 @@ const Image = ({ slice, index }) => {
                 }}>
                 {title.text}
               </Text>
-            </Heading>
-
-            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-
-              <Text
-                as={'span'}
-                position={'relative'}
-                style={{fontFamily: 'IvyPresto Headline',
-                fontStyle: 'normal',
-                fontWeight: '600',
-                fontSize: '60px',
-                lineHeight: '100%',
-                color: '#003D77'
-              }}
-                _after={{
-                  content: "''",
-                  width: 'full',
-                  height: useBreakpointValue({ base: '20%', md: '30%' }),
-                  position: 'absolute',
-                  bottom: 1,
-                  left: 0,
-                  zIndex: -1,
-                }}>
-                {title.text}
-              </Text>
-
             </Heading>
         </div>
       )}
