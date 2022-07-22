@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/HeroWithFeatureLogo';
+
+export default {
+  title: 'slices/HeroWithFeatureLogo'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"hero_with_feature_logo","items":[],"primary":{"title":[{"type":"heading1","text":"Syndicate 24/7 interfaces","spans":[]}],"description":[{"type":"paragraph","text":"Qui sit ullamco magna adipisicing occaecat aute.","spans":[]}],"ctaOrder":"unleash leading-edge relationships","ctaGetQuote":"aggregate back-end systems","featuredImage":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=900&h=500&fit=crop"}},"id":"_Default"}} />
+_Default.storyName = 'Default'

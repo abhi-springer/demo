@@ -1,7 +1,8 @@
 {
   "_cts": {
     "myhome": {},
-    "test": {}
+    "test": {},
+    "page": {}
   },
   "slices": {
     "HomeSlice": {
@@ -40,6 +41,15 @@
               "patternType": "PARAGRAPH",
               "blocks": 1
             }
+          }
+        }
+      }
+    },
+    "HeroWithFeatureLogo": {
+      "default": {
+        "primary": {
+          "featuredImage": {
+            "content": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05"
           }
         }
       }

@@ -200,6 +200,109 @@
           }
         }
       },
+      "hero_with_feature_logo": {
+        "library": "slices",
+        "id": "hero_with_feature_logo",
+        "name": "HeroWithFeatureLogo",
+        "description": "HeroWithFeatureLogo",
+        "model": {
+          "id": "hero_with_feature_logo",
+          "type": "SharedSlice",
+          "name": "HeroWithFeatureLogo",
+          "description": "HeroWithFeatureLogo",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroWithFeatureLogo",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "ctaOrder": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Order Button",
+                    "placeholder": ""
+                  }
+                },
+                "ctaGetQuote": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Get Quote Button",
+                    "placeholder": ""
+                  }
+                },
+                "featuredImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Featured Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero_with_feature_logo",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Syndicate 24/7 interfaces",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Qui sit ullamco magna adipisicing occaecat aute.",
+                  "spans": []
+                }
+              ],
+              "ctaOrder": "unleash leading-edge relationships",
+              "ctaGetQuote": "aggregate back-end systems",
+              "featuredImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "home_slice": {
         "library": "slices",
         "id": "home_slice",
