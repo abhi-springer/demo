@@ -36,11 +36,8 @@
     "HeroFeaturedImage": {
       "default": {
         "primary": {
-          "text": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
+          "description": {
+            "content": "Whether you are submitting a 300-word abstract or a 30,000-word grant application, our editing team specializes in language polishing and will carefully adjust grammar, punctuation, consistency, spelling, and word choice."
           }
         }
       }

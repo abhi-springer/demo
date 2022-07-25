@@ -19,15 +19,6 @@
             "placeholder": "This is where it all begins..."
           }
         },
-        "text": {
-          "type": "StructuredText",
-          "config": {
-            "label": "Text",
-            "placeholder": "A nice description of your feature",
-            "allowTargetBlank": true,
-            "single": "paragraph"
-          }
-        },
         "backgroundImage": {
           "type": "Image",
           "config": {
@@ -42,6 +33,13 @@
             "label": "Button Link",
             "placeholder": "",
             "select": null
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
           }
         }
       },

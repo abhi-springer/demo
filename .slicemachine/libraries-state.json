@@ -120,15 +120,6 @@
                     "placeholder": "This is where it all begins..."
                   }
                 },
-                "text": {
-                  "type": "StructuredText",
-                  "config": {
-                    "label": "Text",
-                    "placeholder": "A nice description of your feature",
-                    "allowTargetBlank": true,
-                    "single": "paragraph"
-                  }
-                },
                 "backgroundImage": {
                   "type": "Image",
                   "config": {
@@ -143,6 +134,13 @@
                     "label": "Button Link",
                     "placeholder": "",
                     "select": null
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
                   }
                 }
               },
@@ -161,14 +159,7 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Visualize collaborative relationships",
-                  "spans": []
-                }
-              ],
-              "text": [
-                {
-                  "type": "paragraph",
-                  "text": "Nisi id nulla exercitation consequat et amet duis quis irure culpa culpa ex culpa. Adipisicing sint officia in pariatur.",
+                  "text": "Cultivate robust e-business",
                   "spans": []
                 }
               ],
@@ -179,12 +170,13 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
               },
               "buttonLink": {
                 "link_type": "Web",
-                "url": "http://google.com"
-              }
+                "url": "http://twitter.com"
+              },
+              "description": "Whether you are submitting a 300-word abstract or a 30,000-word grant application, our editing team specializes in language polishing and will carefully adjust grammar, punctuation, consistency, spelling, and word choice."
             }
           }
         },
@@ -196,7 +188,7 @@
           "default": {
             "path": "/Users/akt8394/Documents/pearl-projects/ask-demo/.slicemachine/assets/slices/HeroFeaturedImage/default/preview.png",
             "width": 800,
-            "height": 54
+            "height": 600
           }
         }
       },

@@ -47,7 +47,7 @@ const HeroWithFeatureLogo = ({ slice }) => {
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Button
-              rounded={'none'}
+              rounded={'6px'}
               bg={'blue.400'}
               color={'white'}
               _hover={{
@@ -55,7 +55,7 @@ const HeroWithFeatureLogo = ({ slice }) => {
               }}>
               {slice.primary.ctaOrder ? slice.primary.ctaOrder : "Order Now"}
             </Button>
-            <Button rounded={'none'}>{slice.primary.ctaGetQuote ? slice.primary.ctaGetQuote : "Get A Quote"}</Button>
+            <Button rounded={'6px'}>{slice.primary.ctaGetQuote ? slice.primary.ctaGetQuote : "Get A Quote"}</Button>
           </Stack>
         </Stack>
       </Flex>
