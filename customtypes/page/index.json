@@ -56,6 +56,9 @@
             },
             "hero_with_feature_logo": {
               "type": "SharedSlice"
+            },
+            "hero_featured_image": {
+              "type": "SharedSlice"
             }
           }
         }
